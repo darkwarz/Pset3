@@ -19,7 +19,7 @@ int duration(string fraction)
 // Calculates frequency (in Hz) of a note
 int frequency(string note)
 {
-    float semitone = 0.0, currentOctave;
+    float semitone = 0.0, currentOctave;        //nicely done, your code is very clean and succinct.  I'm not sure what else needs commenting.
     char currentNote = '\0', accidental = '\0';
     if (strlen(note) == 2)
     {
